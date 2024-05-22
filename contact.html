@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CMS News</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- @style -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/sport.css">
+        <link rel="stylesheet" href="assets/css/news-detail.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
+        <link rel="stylesheet" href="assets/css/search.css">
+        <!-- @google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kantumruy&display=swap" rel="stylesheet">
+        <!-- @google font -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- @slick slider -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- @funcy box -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.php">
+                    <h3>JONGDENG NEWS</h3>
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.php">HOME</a></li>
+                <li class="menu-sport"><a href="javascript:viod(0)">SPORT</a>
+                    <ul class="sub-menu sport">
+                        <li>
+                            <a href="sport-news-national.php">National</a>
+                        </li>
+                        <li>
+                            <a href="">International</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-sport"><a href="javascript:viod(0)">SOCIAL</a>
+                    <ul class="sub-menu sport">
+                        <li>
+                            <a href="">National</a>
+                        </li>
+                        <li>
+                            <a href="">International</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-sport"><a href="javascript:viod(0)">ENTERTAINMENT</a>
+                    <ul class="sub-menu sport">
+                        <li>
+                            <a href="">National</a>
+                        </li>
+                        <li>
+                            <a href="">International</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.php">CONTACT</a></li>
+            </ul>
+            <div class="search">
+                <form action="search.php" method="get">
+                    <input type="text" class="box" placeholder="Search Here" name="query" value="">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
+            </div>    
+        </div>
+    </header>
+
+    <div class="content contact">
+        <section class="trending">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-trending">
+                            <div class="content-left">
+                                CONTACT US
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="wrap-follow">
+                            <h4 class="title">FOLLOW US</h4>
+                            <ul>
+                                <li>
+                                   <img src="assets/icon/fb.png" width="40px"> <a href="">Facebook</a>
+                                </li>
+                                <li>
+                                   <img src="assets/icon/yt.png" width="40px"> <a href="">Youtube</a>
+                                </li>
+                                <li>
+                                   <img src="assets/icon/ig.jfif" width="40px"> <a href="">Instagram</a>
+                                </li>
+                                <li>
+                                   <img src="assets/icon/telegram.png" width="40px"> <a href="">Telegram</a>
+                                </li>
+                                <li>
+                                   <img src="assets/icon/gmail-1.png" width="40px"> <a href="">Email</a>
+                                </li>
+                                <li>
+                                   <img src="assets/icon/tiktok.png" width="40px"> <a href="">Tok Tok</a>
+                                </li>
+                                <li>
+                                   <img src="assets/icon/phone.jpg" width="40px"> <a href="">012 333 444 / 010 232 323</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="wrap-contact">
+                            <h4 class="title">FEEDBACK TO US</h4>
+                            <form action="" method="post">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="label">Username</div>
+                                        <input type="text" class="box" placeholder="Username" required>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="label">Email</div>
+                                        <input type="email" class="box" placeholder="Email" required>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="label">Telephone</div>
+                                        <input type="tel" class="box" placeholder="Telephone" required minlength="9" maxlength="10">
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="label">Address</div>
+                                        <input type="text" class="box" placeholder="Address" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="label">Message</div>
+                                        <textarea cols="30" rows="10" placeholder="Message Here" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="wrap-btn">
+                                            <button type="submit" name="btn_message"><i class="fab fa-telegram-plane"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="">
+                    <img src="https://dummyimage.com/120" alt="">
+                </a>
+            </div>
+            <div class="about">
+                <div class="description">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                </div>
+            </div>
+            <div class="connect">
+                <ul>
+                    <li>
+                        <a href=""><img src="https://dummyimage.com/40/27306D" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="https://dummyimage.com/40/27306D" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="https://dummyimage.com/40/27306D" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer> 
+</body>
+<!-- @slick slider -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- @theme js -->
+<script src="assets/script/theme.js"></script>
+<!-- @funcy box -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
